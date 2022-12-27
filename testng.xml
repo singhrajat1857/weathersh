@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
+    <listeners>
+        <listener class-name="test.listners" />
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Main_Assignment_selenium/src/test/java/test">
+        <classes><class name="test.classTest">
+            <methods><include name="temperature_check"/>
+                     <include name="cartlisttest"/>
+                     <include name="payment_test"/>
+                     <include name="final_check"/>
+            </methods>
+               </class>
+        </classes>
+    </test>
+</suite>
